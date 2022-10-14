@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Angebotsseite</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="Stylesheet" type="text/CSS" href="Klasse.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Google Analytics -->
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
+    </head>
+    
+    <body class="BgImage">
+        <div class="header">
+            <div class="inner_header">
+                <div class="logo_container">
+                    <img src="Bücherladenlogo.jpg" class="picture_BB">
+
+                </div>
+                <div class="name_container">
+                    <h1>BUCH<span>BAR Bern</span></h1>
+                </div>
+
+                <ul class="navigation">
+                    <a href="index.html"><li>Startseite</li></a>
+                    <a href="Seite_2.html"><li>Angebot</li></a>
+                    <a href="Seite_3.html"><li>Kontakt</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <section class="container formular" id="contactForm">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Kundenservice</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="row form-group">
+                            <div class="offset-3 col">
+                                <div class="form-check form-check-inline">
+                                    <input name="salutation" id="salutationMrs" class="form-check-input" type="radio" value="mrs">
+                                    <label class="form-check-label" for="salutationMrs">Frau</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input name="salutation" id="salutationMr" class="form-check-input" type="radio" value="mr">
+                                    <label class="form-check-label" for="salutationMr">Herr</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input name="salutation" id="salutationN" class="form-check-input" type="radio" value="N">
+                                    <label class="form-check-label" for="salutationN">Divers</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label class="col-3 col-form-label" for="name">
+                                <b>Name:</b>
+                            </label>
+                            <div class="col">
+                                <input type="text" name="name" id="name" placeholder="Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <label class="col-3 col-form-label" for="name">
+                                <b>Vorname:</b>
+                            </label>
+                            <div class="col">
+                                <input type="text" name="name" id="name" placeholder="Vorname" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <label class="col-3 col-form-label" for="name">
+                                <b>E-Mail:</b>
+                            </label>
+                            <div class="col">
+                                <input type="text" name="name" id="name" placeholder="E-Mail" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <label class="col-3 col-form-label" for="name">
+                                <b>Auftragsnummer:</b>
+                            </label>
+                            <div class="col">
+                                <input type="text" name="name" id="name" placeholder="Auftragsnummer (falls vorhanden)" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <label class="col-3 col-form-label" for="subject">
+                                <b>Betreff:</b>
+                            </label>
+                            <div class="col">
+                                <select id="subject" name="subject" class="form-control">
+                                    <option>Bitte wählen</option>
+                                    <option value="Bestellung">Ich möchte eine Bestellung aufgeben</option>
+                                    <option value="Rechnung">Fragen zur Rechnung</option>
+                                    <option value="Rücksendungen">Fragen zur Rücksendung</option>
+                                    <option value="Datenschutz">Fragen zum Datenschutz</option>
+                                    <option value="Andere">Sonstige Anfragen</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label class="col-3 col-form-label" for="message">
+                                <b>Nachricht:</b>
+                            </label>
+                            <div class="col">
+                                <textarea id="message" class="form-control" rows="5" placeholder="Max. 1000 Zeichen"></textarea>
+                            </div>
+                        </div>
+                        <div class="row form-check">
+                            <div class="offset-3 col">
+                                <input type="checkbox" name="robot" id="robot" class="form-check-input">
+                                <label for="robot" class="form-check-label">Hiermit, erkläre ich mich mit den AGB's von BuchBar Bern einverstanden</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer" >
+                    <button class="btn btn-primary button">Anfrage senden</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Unternehmung</h4>
+                        <ul>
+                            <li><a href="#">Über uns</a></li>
+                            <li><a href="#">Unser Service</a></li>
+                            <li><a href="#">Datenschutz</a></li>
+                            <li><a href="#">Partner</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Kundenservice</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Versand</a></li>
+                            <li><a href="#">Umtausch</a></li>
+                            <li><a href="#">Orderstatus</a></li>
+                            <li><a href="#">Zahlungsmöglichkeiten</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Onlineshop</h4>
+                        <ul>
+                            <li><a href="#">Bücher</a></li>
+                            <li><a href="#">Zeitungen</a></li>
+                            <li><a href="#">Hefte</a></li>
+                            <li><a href="#">Diverses</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Follow us</h4>
+                        <div class="social-links">
+                            <a href="https://twitter.com" target="_blank">
+                            <img src="TW_Icon.png" width="50px">
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img src="IG_Icon.png" width="50px">
+                            </a>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <img src="FB_Icon.png" width="50px">
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+        </footer>
+    </body>
+</html>

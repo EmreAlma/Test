@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 115px;
+    display: block;
+    background-color: #24262b;
+}
+
+.inner_header{
+    width: 75%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+    vertical-align: middle;
+}
+
+.picture_BB{
+    width: 70px;
+}
+
+.name_container{
+    height: 100%;
+    display: table;
+    float: left;
+    padding-left: 10px;
+}
+
+.name_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.name_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0% 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.picture{
+    padding-left: 10%;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-right: 10%;
+    text-align: center;
+
+}
+
+#inner_picture{
+    height: auto;
+    width: 100%;
+}
+
+.body_cont{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container{
+    max-width: 100%;
+    margin: auto;
+    min-height: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    clear: both;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.formular{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.card-header{
+    background-color: rgb(144, 0, 0);
+    color:white;
+}
+
+.card-body{
+    background-color: lightgrey;
+}
+
+.card-footer{
+    background-color: rgb(144, 0, 0);
+}
+
+.button{
+    background-color: lightgray;
+    border: none;
+    
+}
+
+.BgImage{
+    background-image: url(Titelbild.jpg);
+}
+
+#Überschrift_4{
+    color: white;
+    text-align: center;
+}
+
+.farbe_kategorie_items{
+    color: white;
+    background-color: #24262b;
+    border-color: white;
+}
+
+.card_size{
+    width: 18rem;
+    
+}
+.card_body{
+    background-color: rgb(128, 128, 128);
+}
+
+.card_style{
+    font-size: medium;
+}
+
+.schrift_farbe{
+    color: white;
+}
+
+.info_btn{
+    background-color: #24262b;
+    color: white;
+    border: none;
+}
+
+.kaufen_btn{
+    background-color:  rgb(144, 0, 0);
+    color: white;
+    border: none;
+}
+
+.schlagwort_überschrift{
+    text-align: center;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_12{
+    font-size: 12pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_22{
+    font-size: 22pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_9{
+    font-size: 9pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_13{
+    font-size: 13pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_17{
+    font-size: 17pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_8{
+    font-size: 8pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_18{
+    font-size: 18pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_10{
+    font-size: 10pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_11{
+    font-size: 11pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_19{
+    font-size: 19pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_20{
+    font-size: 20pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_14{
+    font-size: 14pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_21{
+    font-size: 21pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_15{
+    font-size: 15pt;
+    color: rgb(144, 0, 0);
+}
+
+.schlagwort_16{
+    font-size: 16pt;
+    color: rgb(144, 0, 0);
+}
